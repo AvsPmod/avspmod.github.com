@@ -76,10 +76,14 @@ AvsPmod is an ongoing community effort to maintain and provide some
 enhancements to AvsP:</p>
 
 <ul>
-<li>Importing of function definitions, including from online wiki</li>
+<li>Improved syntax highlighting</li>
+<li>Code folding</li>
 <li>Improved function autocomplete</li>
-<li>Move, rename and undo close tabs</li>
+<li>Importing of function definitions, including from online wiki</li>
+<li>Snippets of text</li>
 <li>Better Unicode support</li>
+<li>HTML export and printing</li>
+<li>Move, rename, group and undo close tabs</li>
 <li>Video preview usability improvements</li>
 <li>YUV -&gt; RGB options for previewing</li>
 <li>Support for AviSynth 2.6.0 new colorspaces</li>
@@ -96,7 +100,7 @@ currently only supplied for Windows, the following is also needed:</p>
 
 <ul>
 <li>
-<a href="http://python.org/">Python</a> 2.6-2.7</li>
+<a href="http://www.python.org/">Python</a> 2.6-2.7</li>
 <li>
 <a href="http://www.wxpython.org/">wxPython</a> 2.8-2.9</li>
 </ul><p>In that case start AvsPmod by running <em>avsp.py</em>, i.e. <code>python -O avsp.py</code>, 
@@ -105,8 +109,18 @@ currently only supplied for Windows, the following is also needed:</p>
 <h2>Updating to a new version</h2>
 
 <p>To update AvsPmod just overwrite the previous files.  Personal preferences 
-and customizations are preserved.  However edited macro scripts and preset 
-files must be backed up first.</p>
+and customizations are preserved.  However note that edited macro scripts, 
+preset files and translations must be backed up first.</p>
+
+<p>In case you want to backup the preferences or clean-up old files not longer 
+used, these are the relevant files:</p>
+
+<ul>
+<li><em>options.dat</em>: main preferences</li>
+<li><em>tools/*.dat</em>: tool preferences</li>
+<li><em>macros/macros.dat</em>: macro preferences</li>
+<li><em>_last_session_.ses</em>: auto-saved session info</li>
+</ul>
 
 <h2>Links</h2>
 
